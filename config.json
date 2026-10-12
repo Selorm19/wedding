@@ -121,8 +121,8 @@
       "subtitle": "Holy Matrimony • 2027"
     },
     "profiles": {
-      "groomPhoto": "assets/bride.jpeg",
-      "bridePhoto": "assets/groom.jpeg",
+      "groomPhoto": "assets/groom.jpeg",
+      "bridePhoto": "assets/bride.jpeg",
       "groomBio": "A few words about the groom can go here.",
       "brideBio": "A few words about the bride can go here.",
       "title": "Meet the Couple",
