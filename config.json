@@ -121,8 +121,8 @@
       "subtitle": "Holy Matrimony • 2027"
     },
     "profiles": {
-      "groomPhoto": "/assets/bride.jpeg",
-      "bridePhoto": "/assets/groom.jpeg",
+      "groomPhoto": "assets/bride.jpeg",
+      "bridePhoto": "assets/groom.jpeg",
       "groomBio": "A few words about the groom can go here.",
       "brideBio": "A few words about the bride can go here.",
       "title": "Meet the Couple",
@@ -154,10 +154,10 @@
       "title": "Our Favourite Moments",
       "subtitle": "A few memories we hold close",
       "images": [
-        "/assets/pipo.jpeg",
-        "/assets/pipo1.jpeg",
-        "/assets/pipo.jpeg",
-        "/assets/pipo3.jpeg"
+        "assets/pipo.jpeg",
+        "assets/pipo1.jpeg",
+        "assets/pipo.jpeg",
+        "assets/pipo3.jpeg"
       ]
     },
     "directions": {
