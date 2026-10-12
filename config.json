@@ -1,0 +1,233 @@
+{
+  "couple": {
+    "groomName": "Joseph",
+    "brideName": "Roselyn"
+  },
+  "wedding": {
+    "dateText": "Jan 31, 2027",
+    "isoDate": "2027-01-31T10:00:00",
+    "rsvpDeadline": "Jan 20, 2027"
+  },
+  "venue": {
+    "name": "The Bethlehem Methodist Church, Russia",
+    "address": "Dansoman-Russia Road",
+    "coordinates": {
+      "lat": 56.3572,
+      "lng": 41.3192
+    },
+    "officiant": "Officiating: Rev. Father Andrew & Grace Ministry",
+    "mapLink": "https://maps.google.com/?q=The+Bethlehem+Methodist+Church"
+  },
+  "content": {
+    "hero": {
+      "welcomeText": "With joyous hearts and giving thanks to God, we invite you to celebrate our holy matrimony. Join us as we exchange vows and seek the Almighty's blessings in an atmosphere of faith, love, and fellowship.",
+      "yearBackdrop": "2027"
+    },
+    "scripture": {
+      "quote": "\"Love is patient, love is kind. It does not envy, it does not boast, it is not proud. Love never fails.\"",
+      "reference": "— 1 Corinthians 13:4-8"
+    },
+    "program": [
+      {
+        "time": "15:30",
+        "title": "Gathering of Guests ⛪",
+        "description": "Quiet seating & prelude chimes in Cathedral",
+        "icon": "fa-church",
+        "color": "cream"
+      },
+      {
+        "time": "16:00",
+        "title": "Holy Mass & Vows 🕊️",
+        "description": "Exchanging of rings and pastoral blessing",
+        "icon": "fa-dove",
+        "color": "wine"
+      },
+      {
+        "time": "17:15",
+        "title": "Photos & Confetti 📸",
+        "description": "Church courtyard portrait session with family",
+        "icon": "fa-camera",
+        "color": "cream"
+      },
+      {
+        "time": "18:30",
+        "title": "Fellowship Banquet 🍷",
+        "description": "Dinner, toasts, and evening celebration",
+        "icon": "fa-wine-glass",
+        "color": "cream"
+      }
+    ],
+    "dressCode": {
+      "title": "Dress Code & Palette",
+      "subtitle": "modest elegance in wine & lavender",
+      "description": "We kindly request modest formal attire suited for a cathedral ceremony. Complementing tones in wine, deep burgundy, and lavender are warmly appreciated!",
+      "palette": [
+        {
+          "name": "Deep Wine",
+          "color": "#58111a"
+        },
+        {
+          "name": "Burgundy",
+          "color": "#a6344a"
+        },
+        {
+          "name": "Lavender",
+          "color": "#967bb6"
+        },
+        {
+          "name": "Soft Lilac",
+          "color": "#dcd0ff"
+        },
+        {
+          "name": "Dusty Rose",
+          "color": "#e5d8eb"
+        }
+      ]
+    },
+    "countdown": {
+      "title": "Counting Down to Our Wedding Day",
+      "subtitle": "Jan 31, 2027 • Bethlehem Methodist Church"
+    },
+    "rsvp": {
+      "title": "Confirm Attendance",
+      "subtitle": "please respond by Jan 20, 2027",
+      "formEndpoint": "",
+      "fields": {
+        "nameLabel": "Your Full Name(s) *",
+        "namePlaceholder": "e.g. John & Sarah Miller",
+        "attendanceLabel": "Attendance *",
+        "attendanceOptions": [
+          "Joyfully Accept",
+          "Regretfully Decline"
+        ],
+        "guestCountLabel": "Guest Count",
+        "guestCountOptions": [
+          "1 Person",
+          "2 Persons",
+          "3 Persons",
+          "Family (4+)"
+        ],
+        "notesLabel": "Dietary / Special Notes",
+        "notesPlaceholder": "Dietary restrictions or prayer wishes...",
+        "submitText": "Submit RSVP Response"
+      },
+      "success": {
+        "title": "Your response has been saved!",
+        "message": "Thank you for confirming. We look forward to praising God and celebrating with you!"
+      }
+    },
+    "footer": {
+      "text": "Joseph & Roselyn's Wedding",
+      "subtitle": "Holy Matrimony • 2027"
+    },
+    "profiles": {
+      "groomPhoto": "/assets/bride.jpeg",
+      "bridePhoto": "/assets/groom.jpeg",
+      "groomBio": "A few words about the groom can go here.",
+      "brideBio": "A few words about the bride can go here.",
+      "title": "Meet the Couple",
+      "subtitle": "Two hearts, one beautiful promise"
+    },
+    "loveStory": {
+      "title": "Our Love Story",
+      "subtitle": "A journey written by grace",
+      "intro": "Every love story is special, and ours is a testimony of grace, friendship, and faith.",
+      "milestones": [
+        {
+          "date": "The Beginning",
+          "title": "How We Met",
+          "description": "Add a few words about how your journey together began."
+        },
+        {
+          "date": "Growing Together",
+          "title": "A Love That Grew",
+          "description": "Share a favourite memory or a meaningful moment in your relationship."
+        },
+        {
+          "date": "The Proposal",
+          "title": "A Promise Forever",
+          "description": "Tell guests about the proposal or the decision to build a life together."
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Our Favourite Moments",
+      "subtitle": "A few memories we hold close",
+      "images": [
+        "/assets/pipo.jpeg",
+        "/assets/pipo1.jpeg",
+        "/assets/pipo.jpeg",
+        "/assets/pipo3.jpeg"
+      ]
+    },
+    "directions": {
+      "title": "Join Us for the Celebration",
+      "subtitle": "We look forward to celebrating with you",
+      "note": "Please use the directions link to plan your journey to the ceremony."
+    }
+  },
+  "theme": {
+    "colors": {
+      "wine": {
+        "50": "#fcf4f5",
+        "100": "#f9e8eb",
+        "200": "#f4d5da",
+        "300": "#eaabb5",
+        "400": "#db7889",
+        "500": "#c54961",
+        "600": "#a6344a",
+        "700": "#800020",
+        "800": "#722f37",
+        "900": "#58111a"
+      },
+      "lavender": {
+        "50": "#faf8fc",
+        "100": "#f3f0f9",
+        "200": "#e6e0f3",
+        "300": "#dcd0ff",
+        "400": "#c3b1e1",
+        "500": "#967bb6",
+        "600": "#7b5ea0",
+        "700": "#644886",
+        "800": "#533c6e"
+      },
+      "cream": {
+        "50": "#fdfbfd",
+        "100": "#f9f6fa",
+        "200": "#f2eaf5",
+        "300": "#e5d8eb"
+      },
+      "gold": {
+        "300": "#eed9a8",
+        "400": "#d4af37",
+        "500": "#c59b27",
+        "600": "#a37b1e"
+      }
+    },
+    "fonts": {
+      "serif": "\"Cormorant Garamond\", \"Playfair Display\", serif",
+      "cursive": "\"Alex Brush\", cursive",
+      "sans": "\"Montserrat\", sans-serif"
+    }
+  },
+  "features": {
+    "showScripture": true,
+    "showDressCode": true,
+    "showCountdown": true,
+    "showRSVP": true,
+    "showMap": true,
+    "enableMusic": true,
+    "enableCalendar": true,
+    "showCoupleCards": true,
+    "showLoveStory": true,
+    "showGallery": true,
+    "showDirections": true,
+    "showProgram": true
+  },
+  "calendar": {
+    "title": "Holy Matrimony Mass & Wedding Fellowship",
+    "details": "Holy Matrimony Mass & Wedding Fellowship at {venue}",
+    "startDate": "20270131T160000Z",
+    "endDate": "20270131T220000Z"
+  }
+}
