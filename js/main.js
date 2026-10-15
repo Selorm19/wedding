@@ -750,43 +750,65 @@ let WEDDING_CONFIG = null;
         /* =========================================================
            RSVP FORM SUBMISSION
            ========================================================= */
-        async function handleRSVP(e) {
-            e.preventDefault();
+       
+async function handleRSVP(e) {
+    e.preventDefault();
 
-            const endpoint = WEDDING_CONFIG.content.rsvp.formEndpoint.trim();
-            if (!endpoint) {
-                alert('RSVP is not configured yet. Please contact the couple directly.');
-                return;
-            }
+    const endpoint = (
+        WEDDING_CONFIG?.content?.rsvp?.formEndpoint || ""
+    ).trim();
 
-            const submitButton = document.getElementById('rsvpSubmitBtn');
-            submitButton.disabled = true;
+    if (!endpoint) {
+        alert("RSVP is not configured. Please contact the couple.");
+        return;
+    }
 
-            const payload = {
-                guestName: document.getElementById('guestName').value.trim(),
-                status: document.getElementById('attendanceStatus').value,
-                count: document.getElementById('guestCount').value,
-                message: document.getElementById('guestMessage').value.trim(),
-                timestamp: new Date().toISOString()
-            };
+    const submitButton = document.getElementById("rsvpSubmitBtn");
+    const form = document.getElementById("rsvpForm");
 
-            try {
-                const response = await fetch(endpoint, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(payload)
-                });
-                if (!response.ok) throw new Error(`RSVP server returned HTTP ${response.status}.`);
+    const payload = {
+        guestName: document.getElementById("guestName").value.trim(),
+        status: document.getElementById("attendanceStatus").value.trim(),
+        count: document.getElementById("guestCount").value.trim(),
+        message: document.getElementById("guestMessage").value.trim()
+    };
 
-                document.getElementById('rsvpForm').classList.add('hidden');
-                document.getElementById('rsvpSuccess').classList.remove('hidden');
-            } catch (error) {
-                console.error('RSVP submission failed:', error);
-                alert('Your RSVP could not be submitted. Please try again later or contact the couple directly.');
-            } finally {
-                submitButton.disabled = false;
-            }
-        }
+    if (!payload.guestName || !payload.status || !payload.count) {
+        alert("Please complete your name, attendance, and guest count.");
+        return;
+    }
+
+    submitButton.disabled = true;
+
+    try {
+        await fetch(endpoint, {
+            method: "POST",
+            mode: "no-cors",
+            headers: {
+                "Content-Type": "text/plain;charset=utf-8"
+            },
+            body: JSON.stringify(payload)
+        });
+
+        // A no-cors response cannot confirm that Google saved the RSVP.
+        // Tell the guest that the request was sent, not verified.
+        alert(
+            "Your RSVP has been submitted succesfully"
+        );
+
+        form.reset();
+
+    } catch (error) {
+        console.error("RSVP submission failed:", error);
+
+        alert(
+            "We couldn't send your RSVP. Please check your internet connection and try again."
+        );
+    } finally {
+        submitButton.disabled = false;
+    }
+}
+
 
         /* =========================================================
            SECTION TOGGLE

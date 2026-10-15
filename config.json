@@ -1,7 +1,7 @@
 {
   "couple": {
-    "groomName": "Joseph",
-    "brideName": "Roselyn"
+    "groomName": "Joseph Something    ",
+    "brideName": "Roselyn Commey"
   },
   "wedding": {
     "dateText": "Jan 31, 2027",
@@ -29,29 +29,29 @@
     },
     "program": [
       {
-        "time": "15:30",
+        "time": "10:00",
         "title": "Gathering of Guests ⛪",
         "description": "Quiet seating & prelude chimes in Cathedral",
         "icon": "fa-church",
         "color": "cream"
       },
       {
-        "time": "16:00",
+        "time": "12:00",
         "title": "Holy Mass & Vows 🕊️",
         "description": "Exchanging of rings and pastoral blessing",
         "icon": "fa-dove",
         "color": "wine"
       },
       {
-        "time": "17:15",
+        "time": "13:00",
         "title": "Photos & Confetti 📸",
         "description": "Church courtyard portrait session with family",
         "icon": "fa-camera",
         "color": "cream"
       },
       {
-        "time": "18:30",
-        "title": "Fellowship Banquet 🍷",
+        "time": "18:00",
+        "title": "Family Celebration 🍷",
         "description": "Dinner, toasts, and evening celebration",
         "icon": "fa-wine-glass",
         "color": "cream"
@@ -91,7 +91,7 @@
     "rsvp": {
       "title": "Confirm Attendance",
       "subtitle": "please respond by Jan 20, 2027",
-      "formEndpoint": "",
+      "formEndpoint": "https://script.google.com/macros/s/AKfycbx1z3bknNz9d0Z07VY-kC2o5P70p5vdg4jCcEF8reqPgX3hDNnV6SPUTLJs9_bmE10B/exec",
       "fields": {
         "nameLabel": "Your Full Name(s) *",
         "namePlaceholder": "e.g. John & Sarah Miller",
